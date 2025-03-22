@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  margin: 0;
+  /* flex: 1; */
+  /* flex-direction: column; */
+  height: 100vh;
+  width: 100vw;
+  /* align-items: center; */
+  justify-content: center;
+  align-items: center;
+  background-color: rebeccapurple;
+}
+
+d {
+  margin: 20px;
+  background-color: black;
+  display: flex;
+  width: 300px;
+  height: 300px;
+  color: white;
+}
+
+.greetings-container {
+  /* position: relative; */
+  height: 40%;
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.greetings-container p {
+  height: 50px;
+  flex-wrap: wrap;
+}
+
+.typewriter {
+  width: 31ch;
+  animation: typing 4s steps(31), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #f8f5f5;
+  font-family: monospace;
+  font-size: 3em;
+  color: #f8f5f5;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+/*     
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+} */
