@@ -599,3 +599,8 @@ nav a:hover{
   transition: 0.2s;
 }
 
+@media screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+}
